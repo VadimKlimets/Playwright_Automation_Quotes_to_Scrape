@@ -8,4 +8,4 @@ test('5TC_NAVIGATION_has_title.spec.js', async ({ page }) => {
   await expect(page).toHaveTitle(/Quotes/);
 
   page.close();
-  });
+});

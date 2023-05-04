@@ -15,9 +15,9 @@ test('TC10_AUTHENTICATION_login_with_empty_username.spec.js', async ({ page }) =
 
   console.log('Error message is ' + errorMessage);
 
-  expect (errorMessage.includes('please, provide your username.')).toBeTruthy() // Partially assert error validation message for the field 'Username'
+  expect(errorMessage.includes('please, provide your username.')).toBeTruthy() // Partially assert error validation message for the field 'Username'
 
-  expect (errorMessage === 'Error while logging in: please, provide your username.').toBeTruthy() // Strictly assert error validation message for the field 'Username'
+  expect(errorMessage === 'Error while logging in: please, provide your username.').toBeTruthy() // Strictly assert error validation message for the field 'Username'
 
   page.close();
 });

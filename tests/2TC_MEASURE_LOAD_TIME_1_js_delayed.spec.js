@@ -12,5 +12,3 @@ test('2TC_MEASURE_LOAD_TIME_js_delayed.spec.js', async ({ page }) => {
 
   page.close();
 });
-
-//

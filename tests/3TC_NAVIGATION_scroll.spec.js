@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'; // Import the "test" and "expect" functions from the Playwright test library.
-import { LoginPage } from '../pages/login'; // Import the "LoginPage" module from a local file named "login.js".
+import { LoginPage } from '../pages/1POM_login' // Import the "LoginPage" module from a local file named "1POM_login.js".
 
 test('3TC_NAVIGATION_scroll.spec.js', async ({ page }) => {
 
@@ -17,5 +17,3 @@ test('3TC_NAVIGATION_scroll.spec.js', async ({ page }) => {
 
   page.close();
 });
-
-//

@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test'; // Import the "test" and "expect" functions from the Playwright test library.
-// import { LoginPage } from '../pages/login'; // Import the "LoginPage" module from a local file named "login.js".
 
 test('TC11_AUTHENTICATION_login_with_empty_password.spec.js', async ({ page }) => {
 
@@ -16,9 +15,9 @@ test('TC11_AUTHENTICATION_login_with_empty_password.spec.js', async ({ page }) =
 
   console.log('Error message is ' + errorMessage);
 
-  expect (errorMessage.includes('please, provide your password.')).toBeTruthy() // Partially assert error validation message for the field 'Password'
+  expect(errorMessage.includes('please, provide your password.')).toBeTruthy() // Partially assert error validation message for the field 'Password'
 
-  expect (errorMessage === 'Error while logging in: please, provide your password.').toBeTruthy() // Strictly assert error validation message for the field 'Password'
+  expect(errorMessage === 'Error while logging in: please, provide your password.').toBeTruthy() // Strictly assert error validation message for the field 'Password'
 
   page.close();
 });

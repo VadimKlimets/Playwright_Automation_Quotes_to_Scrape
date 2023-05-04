@@ -1,6 +1,4 @@
-
 import { test, expect } from '@playwright/test'; // Import the "test" and "expect" functions from the Playwright test library.
-
 
 test('9TC_NAVIGATION_pagination_back_forward_top_10_tags.spec.js', async ({ page }) => {
 
@@ -60,7 +58,7 @@ test('9TC_NAVIGATION_pagination_back_forward_top_10_tags.spec.js', async ({ page
   await page.locator('//body/div[1]/div[2]/div[2]/span[8]/a[1]').click();
   await page.locator('div.container div.row:nth-child(3) div.col-md-4.tags-box span.tag-item:nth-child(10) > a.tag').click();
   await page.locator('div.container div.row:nth-child(3) div.col-md-4.tags-box span.tag-item:nth-child(11) > a.tag').click();
-  
+
   await page.goto('https://quotes.toscrape.com');
 
   await page.close();

@@ -1,10 +1,7 @@
 // Import the "test" and "expect" functions from the Playwright test library.
 import { test, expect } from '@playwright/test';
 
-// Import the "LoginPage" module from a local file named "login.js".
-import { LoginPage } from '../pages/login'
-
-// Define a test case with a name "TC1_GET_api_quotes.spec.js" using the "test" function.
+// Define a test case with a name "1TC_API_GET_api_quotes.spec.js" using the "test" function.
 // The test is an asynchronous function that takes an object with a "request" property.
 // Send a GET request to the API endpoint "https://quotes.toscrape.com/api/quotes".
 // Store the response object in a variable named "response".

@@ -1,4 +1,7 @@
-// Page Object Model
+// Page Object Model for https://quotes.toscrape.com/login
+
+// Improvement needed
+// For each web application page should be a separate JavaScript class (Page Object Model) for that page
 
 exports.LoginPage = class LoginPage {
 
