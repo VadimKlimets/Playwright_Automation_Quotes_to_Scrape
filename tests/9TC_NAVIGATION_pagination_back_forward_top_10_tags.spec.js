@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test'; // Import the "test" and "expect" functions from the Playwright test library.
 
 
-test('TC9_NAVIGATION_pagination_back_forward_top_10_tags.spec', async ({ page }) => {
+test('9TC_NAVIGATION_pagination_back_forward_top_10_tags.spec.js', async ({ page }) => {
 
   await page.setViewportSize({ width: 1920, height: 1080 }); // set viewport to full screen size
 

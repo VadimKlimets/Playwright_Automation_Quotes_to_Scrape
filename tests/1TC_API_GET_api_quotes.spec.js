@@ -9,7 +9,7 @@ import { LoginPage } from '../pages/login'
 // Send a GET request to the API endpoint "https://quotes.toscrape.com/api/quotes".
 // Store the response object in a variable named "response".
 
-test("TC1_GET_api_quotes.spec.js", async ({ request }) => {
+test("1TC_API_GET_api_quotes.spec.js", async ({ request }) => {
   const response = await request.get(
     'https://quotes.toscrape.com/api/quotes'
   );
