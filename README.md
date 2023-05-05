@@ -83,7 +83,7 @@ Version 18.16.0 is already installed.
 nvm list
 
 {output}
-  18.16.0 (Currently using 64-bit executable)
+18.16.0 (Currently using 64-bit executable)
 * 16.13.0
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -148,6 +148,7 @@ Version <x.y.z>
 
 13. (Optionally)
 If help is needed for reference purposes - run built-in Playwright help:
+
 npx playwright --help
 
 -------------------------------------------------------------------------------------------------------------------------------------
