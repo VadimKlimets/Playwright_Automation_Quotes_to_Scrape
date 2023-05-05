@@ -1,9 +1,11 @@
 # Playwright_Automation_Quotes_to_Scrape
 
-Reasons for using a particular JS toolbox
+Reasons for using a particular JS toolbox - please, kindly see the contents of folder '/Demo Video and Screenshots' here:
+https://drive.google.com/drive/folders/1l-eRth_V3zI_B4SW5Wp7FrGuVicPeRRj?usp=sharing
+
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Playwright 
+Playwright:
 https://playwright.dev/
 
 1. The blazingly fastest universal framework I have ever seen at the moment which can be used for the Autotests in Legacy Projects, in New Projects, in Projects with heavy FE, BE APIs codebase Refactoring near to real time for QA/QC/Testing :) 
@@ -12,7 +14,7 @@ https://playwright.dev/
 
 3. Open-source
 
-4. Free
+4. Free VS https://www.cypress.io/pricing?v=2
 
 5. Easy to setup
 
