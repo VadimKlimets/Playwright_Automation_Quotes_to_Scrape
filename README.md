@@ -1,5 +1,44 @@
 # Playwright_Automation_Quotes_to_Scrape
 
+Reasons for using a particular JS toolbox
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Playwright 
+https://playwright.dev/
+
+1. The fastest universal framework I have ever seen at the moment which can be used for the Autotests Legacy Projects, New Projects, Projects 
+
+2. Many times faster then https://www.cypress.io/
+
+3. Open-source
+
+4. Free
+
+5. Easy to setup
+
+6. Easy to use
+
+7. Easy to write autotests
+
+8. Easy to debug autotests
+
+9.Easy to maintain autotests
+
+10. Easy learning curve
+
+11. Officially Supported by Microsoft
+
+12. No need to install third party plugins
+
+13. Ready to use out-of-the-box for both FE and BE QA/QC/Testing with 3 major browsers engines for Desktop and Mobile resolutions and BE APIs:
+A. chromium
+B. firefox
+C. webkit
+D. BE APIs
+
+
+14. Just works :) 
+
 Example of steps to set up <Your_Playwright_Project_Name> on Windows 11 machine.
 
 Recommended (optional):
