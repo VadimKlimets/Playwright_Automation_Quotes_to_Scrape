@@ -6,9 +6,9 @@ Reasons for using a particular JS toolbox
 Playwright 
 https://playwright.dev/
 
-1. The fastest universal framework I have ever seen at the moment which can be used for the Autotests Legacy Projects, New Projects, Projects 
+1. The blazingly fastest universal framework I have ever seen at the moment which can be used for the Autotests in Legacy Projects, in New Projects, in Projects with heavy FE, BE APIs codebase Refactoring near to real time for QA/QC/Testing :) 
 
-2. Many times faster then https://www.cypress.io/
+2. Many times faster than https://www.cypress.io/
 
 3. Open-source
 
@@ -28,7 +28,7 @@ https://playwright.dev/
 
 11. Officially Supported by Microsoft
 
-12. No need to install third party plugins
+12. No need to install third party plugins which can dissappear or stopped to be updated
 
 13. Ready to use out-of-the-box for both FE and BE QA/QC/Testing with 3 major browsers engines for Desktop and Mobile resolutions and BE APIs:
 A. chromium
@@ -36,7 +36,21 @@ B. firefox
 C. webkit
 D. BE APIs
 
-14. Simply just works with no headache and magical dancing:) 
+14. Buit-in Test Run web dashboard on localhost
+
+15. Buit-in Video Recording on failed Test Executions
+
+16. Buit-in Screenshot Creation on failed Test Executions
+
+17. Lots of other options :)
+
+18. Fastly growing Community :)
+
+19. Simply just works with no headache and magical dancing :)
+
+20. One stop solution for me to use in short-middle term perspective :)
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Example of steps to set up <Your_Playwright_Project_Name> on Windows 11 machine.
 
