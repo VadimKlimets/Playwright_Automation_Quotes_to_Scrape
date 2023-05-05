@@ -36,7 +36,6 @@ B. firefox
 C. webkit
 D. BE APIs
 
-
 14. Just works :) 
 
 Example of steps to set up <Your_Playwright_Project_Name> on Windows 11 machine.
