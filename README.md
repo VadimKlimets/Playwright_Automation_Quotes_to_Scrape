@@ -27,20 +27,20 @@ as described here https://github.com/nvm-sh/nvm
 
 2. Validate successful installation of nvm (Node.js Version Manager) on your machine platform:
 
-<input>
+{input}
 nvm --version
 
-<output>
+{output}
 nvm <version_number>
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 3. Observe Node.js versions which are available online to download and install on your machine platform:
 
-<input>
+{input}
 nvm list available
 
-<output>
+{output}
 
 |   CURRENT    |     LTS      |  OLD STABLE  | OLD UNSTABLE |
 |--------------|--------------|--------------|--------------|
@@ -69,20 +69,20 @@ nvm list available
 
 4. Install Node.js version 18.16.0
 
-<input>
+{input}
 nvm install 18.16.0
 
-<output>
+{output}
 Version 18.16.0 is already installed.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 5. Observe Node.js versions installed on your machine platform:
 
-<input>
+{input}
 nvm list
 
-<output>
+{output}
   18.16.0 (Currently using 64-bit executable)
 * 16.13.0
 
@@ -90,30 +90,30 @@ nvm list
 
 6. Switch to use the specified Node.js version 18.16.0
 
-<input>
+{input}
 nvm use nvm use 18.16.0
 
-<output>
+{output}
 Now using node v18.16.0 (64-bit)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 7. Validate successful installation of Node.js version 18.16.0
 
-<input>
+{input}
 node --version
 
-<output>
+{output}
 v18.16.0
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 8. Validate successful installation of Node.js Packet Manager version 9.6.4 (npm should be installed automatically at step #8)
 
-<input>
+{input}
 npm --version
 
-<output>
+{output}
 9.6.4
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -131,17 +131,17 @@ npm --version
 
 11. Install the latest version of Playwright:
 
-<input>
+{input}
 npm init playwright@latest
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 12. Validate successful installation of Playwright:
 
-<input>
+{input}
 npx playwright --version
 
-<output>
+{output}
 Version <x.y.z>
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -165,10 +165,10 @@ https://github.com/VadimKlimets/Playwright_Automation_Quotes_to_Scrape
 
 16. HEADLESS mode > Playwright autotests are located and should be executed from the folder '/tests'
 
-<input>
+{input}
 npx playwright test ./tests
 
-<output>
+{output}
 Playwright autotests should be executed in HEADLESS mode in 3 browsers engines:
 - chromium
 - firefox
@@ -178,10 +178,10 @@ Playwright autotests should be executed in HEADLESS mode in 3 browsers engines:
 
 17. HEADED mode > Playwright autotests are located and should be executed from the folder '/tests'
 
-<input>
+{input}
 npx playwright test ./tests --headed
 
-<output>
+{output}
 Playwright autotests should be executed in HEADED mode in 3 browsers engines:
 - chromium
 - firefox
