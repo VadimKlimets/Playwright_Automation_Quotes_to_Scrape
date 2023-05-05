@@ -191,7 +191,11 @@ Playwright autotests should be executed in HEADED mode in 3 browsers engines:
 
 18. When Test Run is over - go to folder '/playwright-report' where screenshots and videos of failed autotests will be saved
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
 19. To see the Test Report for the finished Test Run click the link in the terminal or executed command via terminal:
 \<Your_Playwright_Project_Name> npx playwright show-report
 
 Test Report is saved at /'playwright-report'
+
+-------------------------------------------------------------------------------------------------------------------------------------
