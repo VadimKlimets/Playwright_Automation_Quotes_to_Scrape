@@ -8,7 +8,7 @@ https://drive.google.com/drive/folders/1l-eRth_V3zI_B4SW5Wp7FrGuVicPeRRj?usp=sha
 Playwright:
 https://playwright.dev/
 
-1. The blazingly fastest universal framework I have ever seen at the moment which can be used for the Autotests in Legacy Projects, in New Projects, in Projects with heavy FE, BE APIs codebase Refactoring near to real time for QA/QC/Testing :) 
+1. The blazingly fastest universal framework I have ever seen at the moment which can be used for the Autotests in Legacy Projects, in New Projects, in Projects with heavy FE, BE APIs codebase Refactoring near to real-time for QA/QC/Testing :) 
 
 2. Many times faster than https://www.cypress.io/
 
@@ -22,15 +22,15 @@ https://playwright.dev/
 
 7. Easy to write autotests
 
-8. Easy to debug autotests
+8. Easy-to-debug autotests
 
-9.Easy to maintain autotests
+9. Easy to maintain autotests
 
 10. Easy learning curve
 
 11. Officially Supported by Microsoft
 
-12. No need to install third party plugins which can dissappear or stopped to be updated
+12. No need to install third-party plugins which can disappear or stopped to be updated
 
 13. Ready to use out-of-the-box for both FE and BE QA/QC/Testing with 3 major browsers engines for Desktop and Mobile resolutions and BE APIs:
 A. chromium
@@ -42,7 +42,7 @@ D. BE APIs
 
 15. Buit-in Video Recording on failed Test Executions
 
-16. Buit-in Screenshot Creation on failed Test Executions
+16. Built-in Screenshot Creation on failed Test Executions
 
 17. Lots of other options :)
 
@@ -50,25 +50,25 @@ D. BE APIs
 
 19. Simply just works with no headache and magical dancing :)
 
-20. One stop solution for me to use in short-middle term perspective :)
+20. One-stop solution for me to use in short-middle term perspective :)
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Example of steps to set up <Your_Playwright_Project_Name> on Windows 11 machine.
+Example of steps to set up <Your_Playwright_Project_Name> on a Windows 11 machine.
 
 Recommended (optional):
 
 1. Install Official Microsoft Visual Studio Code:
 https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q
 
-2. Install Official Playwright extension from Microsoft for Official Microsoft Visual Studio Code:
+2. Install the Official Playwright extension from Microsoft for Official Microsoft Visual Studio Code:
 https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Notes:
 
-1. It is better to execute all commands with Administrator role
+1. It is better to execute all commands with the Administrator role
 2. Exact software versions are mentioned for reference purposes only - they may vary in the exact case of your exact machine platform
 3. In case of issues on any step - try to reboot your machine - and proceed to try again from the last successful step
 
@@ -249,7 +249,7 @@ Playwright autotests should be executed in HEADED mode in 3 browsers engines:
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-19. To see the Test Report for the finished Test Run click the link in the terminal or executed command via terminal:
+19. To see the Test Report for the finished Test Run click the link in the terminal or executed the command via the terminal:
 \<Your_Playwright_Project_Name> npx playwright show-report
 
 Test Report is saved at /'playwright-report'
